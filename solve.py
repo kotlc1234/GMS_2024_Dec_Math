@@ -41,8 +41,6 @@ for permutation in pool:
         # print(f"eq1 worked: a={a}, b={b}, c={c}, de={de}, but not eq2")
         continue
 
-    print(f"SOLVED after {count} tries...")
-    print (f"a={a}, b={b}, c={c}, de={de}, fg={fg}, hi={hi}")
-    break
+    print(f"SOLVED at try {count} as: a={a}, b={b}, c={c}, de={de}, fg={fg}, hi={hi}")
 
-print (f"Done in {count} permutations")
+print (f"Done after {count} permutations")
