@@ -12,3 +12,12 @@ where a .. i are different numbers between 1-9 with no number used more than onc
 ## Goal ##
 
 We will try to write a python program that attempts to solve this equation, but we don't know how!
+
+We used the cross product rule to test if:
+
+$$ a * de = b * c $$
+and
+$$ c * hi = de * fg $$
+
+Both of these must be true.
+
